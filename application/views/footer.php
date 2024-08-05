@@ -2,33 +2,19 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-top">
+  <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Butterfly</h3>
+          <a href="Main" class="flogo"><img src="assets/img/logo.png" alt="" style="width: 50%;"></a>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            Subscribe to our Newsletter
             </p>
+            <form action="" method="post">
+              <input type="email" name="email">
+              <input type="submit" value="Subscribe" class="blue">
+            </form>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -68,7 +54,10 @@
         </div>
       </div>
     </div>
+ 
 
+    
+<!-- 
     <div class="container py-4">
       <div class="copyright">
         &copy; Copyright <strong><span>ASDF</span></strong>. All Rights Reserved
@@ -76,7 +65,7 @@
       <div class="credits">
         Designed by <a href=""></a>
       </div>
-    </div>
+    </div> -->
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
