@@ -46,7 +46,18 @@ h6 {
 	text-align: center;
 	border: 1px solid #1a406d;
 	font-weight: 500;
-	padding: 20px 18px 20px 18px !important;
+	padding: 21px 18px 20px 18px !important;
+	font-size: 15px;
+	border-radius: 12px;
+}
+.blues {
+	height: 5vh;
+	background-color: #1a406d;
+	color: white !important;
+	text-align: center;
+	border: 1px solid #1a406d;
+	font-weight: 500;
+	padding: 8px 18px 10px 18px !important;
 	font-size: 15px;
 	border-radius: 12px;
 }
@@ -1495,12 +1506,18 @@ section {
 	padding: 0 0 30px 0;
 	color: #444444;
 	font-size: 14px;
-	background: #ebf7fc;
+	/* background: #ebf7fc; */
 }
+
+li{
+	font-size: 18px;
+    color: black !important;
+}
+
 
 #footer .footer-newsletter {
 	padding: 50px 0;
-	background: #f0f9fd;
+	/* background: #f0f9fd; */
 	text-align: center;
 	font-size: 15px;
 }
@@ -1576,7 +1593,7 @@ section {
 }
 
 #footer .footer-top h4 {
-	font-size: 16px;
+	font-size: 19px;
 	font-weight: bold;
 	color: #0f394c;
 	position: relative;

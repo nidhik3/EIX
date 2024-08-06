@@ -17,7 +17,7 @@
   <!-- ======= About Section ======= -->
   <section class="no-top about">
     <div class="container about1 py-4" style="color: #1A406D;">
-      <div class="row">
+      <div class="row side">
         <div class="col-md-6"></div>
         <div class="col-md-5 space">
           <h5 class="size1">About</h5>
@@ -28,7 +28,10 @@
         </div>
       </div>
     </div>
-    <img src="assets/img/about-banner.png" alt="" style="width: 100%;height: 100%;" class="section-image">
+    <div class="section-container">
+        <img src="assets/img/about-banner.png" alt="About Banner" class="section-image">
+        <div class="overlay"></div>
+    </div>
   </section>
   <!-- End About Section -->
 
@@ -40,7 +43,7 @@
         <h5 class="sub1">Our strengths</h5>
       </div>
       <div class="container">
-        <div class="row space d-flex justify-content-between">
+        <div class="row mspace d-flex justify-content-between">
           <div class="col-md-5 pt-4 p-md-0 d-flex justify-content-end">
             <div class="col-md-2 text-center">
               <img src="assets/img/icons/1.png" alt="">
@@ -104,7 +107,7 @@
           <img src="assets/img/career.png" alt="" style=" height: 100%;
     width: 95%;">
         </div>
-        <div class="col-md-5 space">
+        <div class="col-md-5 side space">
           <h5 class="size1">Careers</h5>
           <p class="g">Join Our Team</p>
           <h5 class="pt-4 pb-5">We are looking for talented individuals to join our innovative team. Explore current job
@@ -126,12 +129,11 @@
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>Equity Investments</h3>
+              <!-- <h4>Ceo &amp; Founder</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                We invest in promising startups and established companies across various sectors, providing the capital they need to grow and succeed.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -140,54 +142,11 @@
           <div class="swiper-slide">
             <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              <h3>Debt Financing</h3>
+              <!-- <h4>Designer</h4> -->
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
-                labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
-                dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                We offer a range of debt financing solutions, including loans and other debt instruments, to businesses seeking to expand or optimize their operations.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -207,14 +166,14 @@
     <h5 class="sub1">News</h5>
     <div class="row  d-flex ">
       <div class="col-md-5">
-        <img src="assets/img/insight.png" alt="" class="py-5">
+        <img src="assets/img/insight.png" alt="" class="py-5" style="width: 100%;">
         <a class="blue1 " href="">Read More</a>
       </div>
       <div class="col-md-1">
         
       </div>
       <div class="col-md-5">
-        <img src="assets/img/insight.png" alt="" class="py-5">
+        <img src="assets/img/insight.png" alt="" class="py-5"style="width: 100%;">
         <a class="blue1 " href="">Read More</a>
       </div>
     

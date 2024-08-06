@@ -51,7 +51,7 @@
           <li><a class="nav-link scrollto active" href="Main">Home</a></li>
           <li><a class="nav-link scrollto" href="About">About</a></li>
           <li><a class="nav-link scrollto" href="Services">Services</a></li>
-          <li><a class="nav-link scrollto " href="Insights">Insights</a></li>
+          <li><a class="nav-link scrollto " href="Insight">Insight</a></li>
           <li><a class="nav-link scrollto" href="Career">Career</a></li>
 
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -71,7 +71,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto blue" href="contact">Contact</a></li>
+          <li><a class="nav-link scrollto blue" href="Contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
